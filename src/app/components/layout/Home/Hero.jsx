@@ -12,14 +12,12 @@ const slides = [
   "/images/hero-5.webp",
 ];
 
-const INTERVAL = 4000;
+const INTERVAL = 6000;
 
 export default function Hero() {
     const [current, setCurrent] = useState(0);
-    const [paused, setPaused] = useState(false);
-
+   
     useEffect(() => {
-        if (paused) return;
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
         const id = setInterval(
@@ -28,16 +26,12 @@ export default function Hero() {
         );
         // Re-runs when `current` changes, so clicking a dot restarts the timer
         return () => clearInterval(id);
-    }, [paused, current]);
+    }, [current]);
 
     return (
         <section
         aria-label="Welcome"
         className="relative isolate flex min-h-[100svh] items-end overflow-hidden bg-plum"
-        onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-        onFocus={() => setPaused(true)}
-        onBlur={() => setPaused(false)}
         >
         {/* Photos */}
         {slides.map((src, i) => (
