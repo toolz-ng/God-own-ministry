@@ -64,7 +64,7 @@ export default function Worship() {
                             href={href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-medium text-white backdrop-blur transition hover:border-gold hover:bg-gold hover:text-plum"
+                            className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-medium text-white backdrop-blur transition hover:border-gold active:border-gold hover:bg-gold active:bg-gold hover:text-plum active:text-plum"
                             >
                             {name}
                             <ArrowUpRight className="h-4 w-4 opacity-70" aria-hidden="true" />

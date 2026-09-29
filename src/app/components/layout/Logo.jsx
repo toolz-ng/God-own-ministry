@@ -4,7 +4,7 @@ export default function Logo() {
     const gid = "gom-" + useId().replace(/:/g, "");
 
     return (
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5">
             <svg
                 viewBox="0 0 48 48"
                 fill="none"
