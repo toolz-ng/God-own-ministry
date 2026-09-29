@@ -71,7 +71,7 @@ export default function Hero() {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-28 pt-32 sm:px-6 md:pb-24 lg:px-8">
             <div className="max-w-xl lg:max-w-2xl">
             <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-7xl">
-                Welcome to God&apos;s Own Ministry
+                Welcome to Ignite Outreach
             </h1>
             <p className="mt-4 font-heading text-lg font-semibold text-gold sm:text-xl md:text-2xl">
                 Where faith comes alive

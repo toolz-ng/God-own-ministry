@@ -44,7 +44,7 @@ export default function About() {
                 </h2>
 
                 <p className="mt-6 text-base leading-relaxed text-ink/80 sm:text-lg">
-                    God&apos;s Own Ministry is more than a Sunday gathering. We are a
+                    Ignite Outreach is more than a Sunday gathering. We are a
                     community of people who come together to worship, learn from the
                     Word, and care for one another through every season of life.
                 </p>

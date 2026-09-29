@@ -43,11 +43,11 @@ export default function Logo() {
             </svg>
 
             <span className="leading-none">
-                <span className="block font-heading text-lg font-semibold text-white md:text-xl">
-                    God&apos;s Own
+                <span className="block font-heading text-lg font-semibold text-white md:text-xl uppercase">
+                    Ignite
                 </span>
                 <span className="mt-1 block text-[0.6rem] uppercase tracking-[0.35em] text-gold md:text-[0.65rem]">
-                    Ministry
+                    Outreach
                 </span>
             </span>
         </div>
