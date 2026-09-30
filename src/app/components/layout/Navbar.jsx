@@ -9,7 +9,7 @@ import Logo from "./Logo";
 const links = [
   { href: "/", label: "Home" },
   { href: "/online", label: "Online", icon: PlayCircle },
-  { href: "/who-we-are", label: "Who we are" },
+  { href: "/about", label: "Who we are" },
   { href: "/locations", label: "Our Locations" },
   { href: "/sermons", label: "Sermons" },
   { href: "/events", label: "Events" },

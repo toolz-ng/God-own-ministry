@@ -1,3 +1,4 @@
+import AboutCTA from "./components/about/AboutCTA";
 import About from "./components/layout/Home/About";
 import Events from "./components/layout/Home/Events";
 import GeneralCTA from "./components/layout/Home/GeneralCTA";
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimony />
       <Worship />
       <Outreach />
+      <AboutCTA />
     </div>
   );
 }
