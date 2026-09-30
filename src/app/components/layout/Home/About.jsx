@@ -54,7 +54,7 @@ export default function About() {
                 </p>
 
                 <Link
-                    href="/who-we-are"
+                    href="/about"
                     className="group mt-8 inline-flex items-center gap-2 rounded-full border-2 border-plum px-7 py-3 text-sm font-semibold text-plum transition hover:bg-plum hover:text-white"
                 >
                     Learn More

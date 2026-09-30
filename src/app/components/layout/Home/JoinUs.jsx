@@ -59,7 +59,7 @@ export default function JoinUs() {
                     </p>
                     <div className="mt-auto pt-8">
                         <Link
-                        href="/locations"
+                        href="/location"
                         className="inline-flex items-center gap-2 rounded-full border-2 border-plum px-6 py-3 text-sm font-semibold text-plum transition group-hover:bg-plum group-hover:text-white after:absolute after:inset-0"
                         >
                         Find a Location

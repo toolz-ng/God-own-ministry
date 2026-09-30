@@ -27,7 +27,7 @@ export default function AboutCTA() {
 
             <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
                 <Link
-                href="/contact"
+                href="/location"
                 className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-plum px-6 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-orchid sm:w-auto"
                 >
                 Join Us this Sunday
@@ -37,7 +37,7 @@ export default function AboutCTA() {
                 </Link>
 
                 <Link
-                href="/watch"
+                href="/online"
                 className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-plum/15 bg-white px-6 py-3.5 text-sm font-semibold text-plum transition-all duration-300 hover:-translate-y-1 hover:border-orchid hover:text-orchid sm:w-auto"
                 >
                 <span className="flex h-8 w-8 items-center justify-center rounded-full bg-lilac text-orchid">

@@ -136,19 +136,6 @@ export default function Events() {
                 })}
                 </ul>
 
-                {/* View all */}
-                <div className="mt-6 flex justify-center lg:mt-14">
-                <Link
-                    href="/events"
-                    className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-plum px-8 py-4 text-sm font-semibold text-white shadow-lg shadow-plum/20 transition hover:bg-orchid sm:w-auto"
-                >
-                    View All Events
-                    <ArrowRight
-                    className="h-4 w-4 transition-transform group-hover:translate-x-1"
-                    aria-hidden="true"
-                    />
-                </Link>
-                </div>
             </div>
         </section>
     );

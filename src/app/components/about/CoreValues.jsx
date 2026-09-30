@@ -91,7 +91,7 @@ export default function CoreValues() {
     return (
         <section
         aria-labelledby="core-values-heading"
-        className="relative overflow-hidden bg-cream px-4 py-24 sm:px-6 md:py-32 lg:px-8"
+        className="relative overflow-hidden bg-lilac px-4 py-24 sm:px-6 md:py-32 lg:px-8"
         >
             {/* Soft background decoration */}
             <div

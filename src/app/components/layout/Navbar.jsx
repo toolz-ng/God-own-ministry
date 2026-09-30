@@ -11,8 +11,8 @@ const links = [
   { href: "/online", label: "Online", icon: PlayCircle },
   { href: "/about", label: "Who we are" },
   { href: "/location", label: "Our Locations" },
-  { href: "/sermons", label: "Sermons" },
-  { href: "/events", label: "Events" },
+  //{ href: "/sermons", label: "Sermons" },
+  //{ href: "/events", label: "Events" },
   { href: "/give", label: "Give" },
 ];
 
@@ -76,7 +76,7 @@ export default function Navbar() {
                 aria-current={isActive(href) ? "page" : undefined}
                 className={`relative flex items-center gap-1.5 px-3 py-2 text-sm font-medium transition-colors after:absolute after:inset-x-3 after:-bottom-0.5 after:h-0.5 after:origin-left after:bg-gold after:transition-transform hover:text-white hover:after:scale-x-100 ${
                   isActive(href)
-                    ? "text-white after:scale-x-100"
+                    ? "text-gold after:scale-x-0"
                     : "text-white/80 after:scale-x-0"
                 }`}
               >
