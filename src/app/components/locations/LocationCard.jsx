@@ -41,7 +41,7 @@ export default function LocationCard({ location }) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Link
-                href="/watch"
+                href="/online"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-plum px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-orchid"
                 >
                 <Play className="h-4 w-4 fill-current" />
