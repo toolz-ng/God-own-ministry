@@ -10,7 +10,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/online", label: "Online", icon: PlayCircle },
   { href: "/about", label: "Who we are" },
-  { href: "/locations", label: "Our Locations" },
+  { href: "/location", label: "Our Locations" },
   { href: "/sermons", label: "Sermons" },
   { href: "/events", label: "Events" },
   { href: "/give", label: "Give" },
